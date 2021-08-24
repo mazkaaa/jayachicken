@@ -15,7 +15,7 @@ try {
         document.getElementById("bg-carousel").style.backgroundImage = 'url("' + imgList[counter] + '")';
         document.getElementById("typeChicken").innerText = typeList[counter];
         counter++;
-        console.log(counter);
+        //console.log(counter);
 
         if(counter == 3){
             counter = 0;
@@ -90,3 +90,6 @@ setInterval(function(){
         document.getElementById("navMobile").classList.add("bg-red");
     }
 }, 50);
+
+// whatsapp script
+
