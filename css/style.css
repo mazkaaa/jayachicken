@@ -1,6 +1,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+* {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 
 /* carousel fullscreen */
 .fullscreen-wrapper{
