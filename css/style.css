@@ -1,10 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-* {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+button {
+    -webkit-appearance: none !important;
+}
+a {
+    -webkit-appearance: none !important;
+    text-decoration: none !important;
 }
 
 /* carousel fullscreen */
@@ -79,7 +81,7 @@ body {
     padding:10px 0px;
 }
 .white-text-section {
-    color: #FAFAFA;
+    color: #FAFAFA !important;
 }
 .black-text-section {
     color: #04080F;
@@ -173,10 +175,12 @@ body {
 
 .fullscreen-wrapper .second-caption-fullscreen {
     position: relative;
-    top: 34%;
+    top: 35%;
 }
 .fullscreen-wrapper .bg-cover {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: absolute;
     background-position: center center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -189,12 +193,6 @@ body {
     left: 50%;
     margin-left: -3px;
     opacity: 0.6;
-}
-.bg-color {
-    height: 170vh;
-    min-height: 600px;
-    background-position: center center;
-    background-color: #BE1E2D;
 }
 
 .fullscreen-wrapper .bg-cover .overlay {
