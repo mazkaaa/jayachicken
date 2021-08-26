@@ -29,7 +29,7 @@ window.onload = function () {
     new bootstrap.ScrollSpy(document.body, {
       target: '#navbar-example2'
     });  hotfixScrollSpy();
-    window.scrollBy(0,0);
+    //window.scrollBy(0,0);
 }
 
 function hotfixScrollSpy() {
