@@ -8,6 +8,9 @@ a {
     -webkit-appearance: none !important;
     text-decoration: none !important;
 }
+.container {
+    overflow: hidden;
+}
 
 /* carousel fullscreen */
 .fullscreen-wrapper{

@@ -1,8 +1,8 @@
 try {
     console.log(getCurrentScroll());
     var imgList = [
-        'img/ayam-beku-header.png',
-        'img/ayam-hidup-header.png',
+        'img/ayam-beku-header-min.png',
+        'img/ayam-hidup-new-header-min.png',
     ];
     var typeList = ['beku?', 'hidup?'];
 
