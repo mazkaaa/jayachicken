@@ -2,14 +2,13 @@ try {
     console.log(getCurrentScroll());
     var imgList = [
         'img/ayam-beku-header.png',
-        'img/ayam-potong-header.png',
         'img/ayam-hidup-header.png',
     ];
-    var typeList = ['beku?', 'potong?', 'hidup?'];
+    var typeList = ['beku?', 'hidup?'];
 
     var counter = 0;
-    document.getElementById("bg-carousel").style.backgroundImage = 'url("' + imgList[2] + '")';
-    document.getElementById("typeChicken").innerText = typeList[2];
+    document.getElementById("bg-carousel").style.backgroundImage = 'url("' + imgList[1] + '")';
+    document.getElementById("typeChicken").innerText = typeList[1];
 
     setInterval(function(){
         document.getElementById("bg-carousel").style.backgroundImage = 'url("' + imgList[counter] + '")';
@@ -17,7 +16,7 @@ try {
         counter++;
         //console.log(counter);
 
-        if(counter == 3){
+        if(counter == 2){
             counter = 0;
         }
     }, 3000)
