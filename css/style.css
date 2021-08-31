@@ -66,6 +66,10 @@ a {
     font-weight: 800;
     color: #FAFAFA;
 }
+.heading-white-second{
+    font-weight: 800;
+    color: #FAFAFA;
+}
 .heading-white:after{
     display:block;
     clear:both;
