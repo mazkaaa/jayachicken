@@ -90,5 +90,3 @@ setInterval(function(){
     }
 }, 50);
 
-// whatsapp script
-
